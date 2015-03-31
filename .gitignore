@@ -1,0 +1,4 @@
+
+# Excel lock files
+.~lock.*
+~$*.xls*
