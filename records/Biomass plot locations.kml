@@ -1,0 +1,2751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Biomass plot locations.kml</name>
+	<StyleMap id="msn_flag8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag12">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag140">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag37">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag210">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag35">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag31">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag21">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag7">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag33">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag5">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag11">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag15">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag16">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag12">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag6">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag80">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag25">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed10">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag28">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag40">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag27">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag27</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag36">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag14">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag32">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag100">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag180">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag4">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag190</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag20">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag26">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag17">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag21">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag190">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag180">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag34">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag240">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mfailed1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag220">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="mfailed10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag2">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_arrow">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag26">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag10">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag50">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag17">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag30">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag20">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag36</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag31">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag9">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag28">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag150">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag23">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag6">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag9">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag18">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag29">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag28">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag7">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag24">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag24">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_arrow0">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag13">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_arrow00">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag14">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag100">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag60">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag33">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag32">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag34">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag16">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag210">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag23">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag1">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag8">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag22">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag19">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag18">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag1">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag50">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag30">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag00">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag2">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag40">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag00">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag5">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed11">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag3">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag27">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag29">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag13">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag160">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag8">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag15">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag35">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag110">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag160">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag4">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag19">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag25">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag11">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_arrow">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag36">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag70">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag22">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_arrow">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Biomass plot locations</name>
+		<open>1</open>
+		<description>Plots are 30 feet in diameter.</description>
+		<Folder>
+			<name>CFNT</name>
+			<open>1</open>
+			<description>Cook Agronomy Farm, no-till site</description>
+			<Placemark>
+				<name>Tower</name>
+				<LookAt>
+					<longitude>-117.0776520004259</longitude>
+					<latitude>46.78364500084303</latitude>
+					<altitude>0</altitude>
+					<heading>-6.020281123261401e-010</heading>
+					<tilt>44.99973704725341</tilt>
+					<range>1000.000115139779</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_arrow</styleUrl>
+				<Point>
+					<coordinates>-117.0776520004259,46.78364500084302,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>2012</name>
+				<LookAt>
+					<gx:TimeStamp><when>2012-05-17</when>
+</gx:TimeStamp>
+					<longitude>-117.0777749466459</longitude>
+					<latitude>46.78331748389438</latitude>
+					<altitude>0</altitude>
+					<heading>1.302097933621889</heading>
+					<tilt>0</tilt>
+					<range>211.1305935008913</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0777169932858</longitude>
+						<latitude>46.78320917134933</latitude>
+						<altitude>0</altitude>
+						<heading>-1.02395976648875</heading>
+						<tilt>46.91105492069323</tilt>
+						<range>99.64141619906629</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag210</styleUrl>
+					<Point>
+						<coordinates>-117.07777,46.78326,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0776607982778</longitude>
+						<latitude>46.78349096814616</latitude>
+						<altitude>0</altitude>
+						<heading>-1.023918812968075</heading>
+						<tilt>46.91093419538287</tilt>
+						<range>100.7103791751554</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag8</styleUrl>
+					<Point>
+						<coordinates>-117.07767,46.78357,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0777169932858</longitude>
+						<latitude>46.78320917134933</latitude>
+						<altitude>0</altitude>
+						<heading>-1.02395976648875</heading>
+						<tilt>46.91105492069323</tilt>
+						<range>99.64141619906629</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag90</styleUrl>
+					<Point>
+						<coordinates>-117.07746,46.78304,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0777169932858</longitude>
+						<latitude>46.78320917134933</latitude>
+						<altitude>0</altitude>
+						<heading>-1.02395976648875</heading>
+						<tilt>46.91105492069323</tilt>
+						<range>99.64141619906629</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag230</styleUrl>
+					<Point>
+						<coordinates>-117.07822,46.78321,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2013</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-06-06</when>
+</gx:TimeStamp>
+					<longitude>-117.0777749466448</longitude>
+					<latitude>46.78331748377495</latitude>
+					<altitude>0</altitude>
+					<heading>1.302097933622682</heading>
+					<tilt>0</tilt>
+					<range>211.1306214302283</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0777749467165</longitude>
+						<latitude>46.78331748370945</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933570415</heading>
+						<tilt>0</tilt>
+						<range>211.130672586458</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07765,46.78349000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0777749467165</longitude>
+						<latitude>46.78331748370945</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933570415</heading>
+						<tilt>0</tilt>
+						<range>211.130672586458</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag190</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07765,46.78317,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0777749467165</longitude>
+						<latitude>46.78331748370945</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933570415</heading>
+						<tilt>0</tilt>
+						<range>211.130672586458</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag140</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07805,46.78365,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0777749467165</longitude>
+						<latitude>46.78331748370945</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933570415</heading>
+						<tilt>0</tilt>
+						<range>211.130672586458</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag110</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07739,46.78364,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2014</name>
+				<LookAt>
+					<gx:TimeStamp><when>2014-04-19</when>
+</gx:TimeStamp>
+					<longitude>-117.0777749467165</longitude>
+					<latitude>46.78331748370945</latitude>
+					<altitude>0</altitude>
+					<heading>1.302097933570415</heading>
+					<tilt>0</tilt>
+					<range>211.130672586458</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0777749466448</longitude>
+						<latitude>46.78331748377495</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933622682</heading>
+						<tilt>0</tilt>
+						<range>211.1306214301179</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07764,46.78354,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0777749466448</longitude>
+						<latitude>46.78331748377495</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933622682</heading>
+						<tilt>0</tilt>
+						<range>211.1306214301179</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag22</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07767,46.78321,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0777749466448</longitude>
+						<latitude>46.78331748377495</latitude>
+						<altitude>0</altitude>
+						<heading>1.302097933622682</heading>
+						<tilt>0</tilt>
+						<range>211.1306214301179</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag160</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07813,46.78314,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0639817220957</longitude>
+						<latitude>46.79566464242735</latitude>
+						<altitude>0</altitude>
+						<heading>1.312149968121787</heading>
+						<tilt>0</tilt>
+						<range>16939.95305744214</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag60</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0775,46.78295,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2015</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-05-18</when>
+</gx:TimeStamp>
+					<longitude>-117.0777749467033</longitude>
+					<latitude>46.78331748366831</latitude>
+					<altitude>0</altitude>
+					<heading>1.302097933580013</heading>
+					<tilt>0</tilt>
+					<range>211.1306524825128</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0778050002833</longitude>
+						<latitude>46.78341360428372</latitude>
+						<altitude>0</altitude>
+						<heading>-2.89519531544261e-010</heading>
+						<tilt>35.13175994256506</tilt>
+						<range>227.0819222785767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag29</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07762,46.78351,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0778050002833</longitude>
+						<latitude>46.78341360428372</latitude>
+						<altitude>0</altitude>
+						<heading>-2.89519531544261e-010</heading>
+						<tilt>35.13175994256506</tilt>
+						<range>227.0819222785767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag9</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07758,46.78321,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0778050002833</longitude>
+						<latitude>46.78341360428372</latitude>
+						<altitude>0</altitude>
+						<heading>-2.89519531544261e-010</heading>
+						<tilt>35.13175994256506</tilt>
+						<range>227.0819222785767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag25</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07793,46.78299000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0778050002833</longitude>
+						<latitude>46.78341360428372</latitude>
+						<altitude>0</altitude>
+						<heading>-2.89519531544261e-010</heading>
+						<tilt>35.13175994256506</tilt>
+						<range>227.0819222785767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag19</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.07735,46.78294,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>CFCT</name>
+			<open>1</open>
+			<description>Cook Agronomy Farm, conventional till site</description>
+			<Placemark>
+				<name>Tower</name>
+				<styleUrl>#failed</styleUrl>
+				<Point>
+					<coordinates>-117.0807,46.77759999999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>2012</name>
+				<LookAt>
+					<gx:TimeStamp><when>2012-05-17</when>
+</gx:TimeStamp>
+					<longitude>-117.0809300002644</longitude>
+					<latitude>46.77728531350507</latitude>
+					<altitude>0</altitude>
+					<heading>-2.483408900833528e-010</heading>
+					<tilt>36.23002353498161</tilt>
+					<range>381.1627344567096</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0808431203846</longitude>
+						<latitude>46.77719837559099</latitude>
+						<altitude>0</altitude>
+						<heading>1.301226977094199</heading>
+						<tilt>0</tilt>
+						<range>65.83331420869619</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag240</styleUrl>
+					<Point>
+						<coordinates>-117.0808900000562,46.77721999989289,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0807900000294</longitude>
+						<latitude>46.77752999999689</latitude>
+						<altitude>0</altitude>
+						<heading>1.301226977079208</heading>
+						<tilt>0</tilt>
+						<range>65.83332582433188</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag13</styleUrl>
+					<Point>
+						<coordinates>-117.0807900000294,46.77752999999689,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0805400000697</longitude>
+						<latitude>46.77701000008155</latitude>
+						<altitude>0</altitude>
+						<heading>1.301234106457491</heading>
+						<tilt>0</tilt>
+						<range>66.00000413524788</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag200</styleUrl>
+					<Point>
+						<coordinates>-117.0805400000697,46.77701000008155,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0813199999986</longitude>
+						<latitude>46.77711999997885</latitude>
+						<altitude>0</altitude>
+						<heading>1.301234106444466</heading>
+						<tilt>0</tilt>
+						<range>66.00000266753052</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag12</styleUrl>
+					<Point>
+						<coordinates>-117.0813199999986,46.77711999997886,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2013</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-06-28</when>
+</gx:TimeStamp>
+					<longitude>-117.0809300000749</longitude>
+					<latitude>46.77728531322502</latitude>
+					<altitude>0</altitude>
+					<heading>6.689024550585921e-011</heading>
+					<tilt>36.22907384237679</tilt>
+					<range>381.1627058147911</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815234368149562e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671801395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag10</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08068,46.7775,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815234368149562e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671801395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag100</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08068,46.7772,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815234368149562e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671801395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag170</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0811,46.77769,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815234368149562e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671801395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08029,46.77767,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2014</name>
+				<LookAt>
+					<gx:TimeStamp><when>2014-05-14</when>
+</gx:TimeStamp>
+					<longitude>-117.0809299998857</longitude>
+					<latitude>46.77728531286295</latitude>
+					<altitude>0</altitude>
+					<heading>3.815234368149562e-010</heading>
+					<tilt>36.22812416413785</tilt>
+					<range>381.1626671801395</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08078,46.7775,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag23</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08089,46.77719,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag26</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08138,46.7771,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag27</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08051,46.77698,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2015</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-05-18</when>
+</gx:TimeStamp>
+					<longitude>-117.0809299994743</longitude>
+					<latitude>46.77728531326112</latitude>
+					<altitude>0</altitude>
+					<heading>1.048088184182673e-009</heading>
+					<tilt>36.22638507813061</tilt>
+					<range>381.1627545004761</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag21</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08078,46.77746000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag24</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08083,46.77715,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08125,46.77704,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-117.0809299998857</longitude>
+						<latitude>46.77728531286295</latitude>
+						<altitude>0</altitude>
+						<heading>3.815616034711337e-010</heading>
+						<tilt>36.22812416413785</tilt>
+						<range>381.1626671790575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag16</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.08045,46.77695,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>LIND</name>
+			<open>1</open>
+			<description>WSU Dryland Research Station
+Lind, WA</description>
+			<Placemark>
+				<name>Tower</name>
+				<LookAt>
+					<longitude>-118.5983519999697</longitude>
+					<latitude>46.99133199984506</latitude>
+					<altitude>0</altitude>
+					<heading>1.302134011836315</heading>
+					<tilt>0</tilt>
+					<range>300.0000997057899</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#mfailed10</styleUrl>
+				<Point>
+					<coordinates>-118.5983519999697,46.99133199984506,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>2013</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-05-14</when>
+</gx:TimeStamp>
+					<longitude>-118.5983519999174</longitude>
+					<latitude>46.99133199984411</latitude>
+					<altitude>0</altitude>
+					<heading>1.30213401187459</heading>
+					<tilt>0</tilt>
+					<range>300.0001168110738</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-118.5983519995916</longitude>
+						<latitude>46.99133199993374</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014909629</heading>
+						<tilt>0</tilt>
+						<range>333.7820124661475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag30</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59832,46.99119999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-118.5983519995916</longitude>
+						<latitude>46.99133199993374</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014909629</heading>
+						<tilt>0</tilt>
+						<range>333.7820124661475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59828,46.99093,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-118.5983519995916</longitude>
+						<latitude>46.99133199993374</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014909629</heading>
+						<tilt>0</tilt>
+						<range>333.7820124661475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag14</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59793,46.99139,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-118.5983519995916</longitude>
+						<latitude>46.99133199993374</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014909629</heading>
+						<tilt>0</tilt>
+						<range>333.7820124661475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59872,46.99138,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2015</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-03-19</when>
+</gx:TimeStamp>
+					<longitude>-118.5983519999174</longitude>
+					<latitude>46.99133199984411</latitude>
+					<altitude>0</altitude>
+					<heading>1.302134011874577</heading>
+					<tilt>0</tilt>
+					<range>300.0001337785063</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-118.5983519995222</longitude>
+						<latitude>46.99133199990227</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014960325</heading>
+						<tilt>0</tilt>
+						<range>333.7820479108432</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag7</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59839,46.99122,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-118.5983519995222</longitude>
+						<latitude>46.99133199990227</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014960325</heading>
+						<tilt>0</tilt>
+						<range>333.7820479108432</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag20</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.5984,46.99091,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-118.5983519995222</longitude>
+						<latitude>46.99133199990227</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014960325</heading>
+						<tilt>0</tilt>
+						<range>333.7820479108432</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag180</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59879,46.99072000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-118.5983519995222</longitude>
+						<latitude>46.99133199990227</latitude>
+						<altitude>0</altitude>
+						<heading>1.302134014960325</heading>
+						<tilt>0</tilt>
+						<range>333.7820479108432</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-118.59805,46.99072000000001,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>MMTN</name>
+			<open>1</open>
+			<description>Moscow Mountain high rainfall site</description>
+			<Placemark>
+				<name>Tower</name>
+				<LookAt>
+					<longitude>-116.948499999643</longitude>
+					<latitude>46.75777494768608</latitude>
+					<altitude>0</altitude>
+					<heading>5.046045418782313e-010</heading>
+					<tilt>44.99974199489584</tilt>
+					<range>1000.779022223284</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#mfailed1</styleUrl>
+				<Point>
+					<coordinates>-116.9485,46.75777,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>2013</name>
+				<LookAt>
+					<gx:TimeStamp><when>2013-05-21</when>
+</gx:TimeStamp>
+					<longitude>-116.9485549998369</longitude>
+					<latitude>46.7576654105225</latitude>
+					<altitude>0</altitude>
+					<heading>1.316304360470491e-010</heading>
+					<tilt>39</tilt>
+					<range>236.5701908677374</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-118.5983599994743</longitude>
+						<latitude>46.99105616002854</latitude>
+						<altitude>0</altitude>
+						<heading>7.427962819730342e-010</heading>
+						<tilt>44.99973820662623</tilt>
+						<range>1000.182664573417</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag16</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94855,46.75770000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-118.5983599994743</longitude>
+						<latitude>46.99105616002854</latitude>
+						<altitude>0</altitude>
+						<heading>7.427962819730342e-010</heading>
+						<tilt>44.99973820662623</tilt>
+						<range>1000.182664573417</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94854,46.75738,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-117.3670709322353</longitude>
+						<latitude>46.81715916203368</latitude>
+						<altitude>0</altitude>
+						<heading>0.001207358888480678</heading>
+						<tilt>45.00036640416803</tilt>
+						<range>69421.14389998055</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag31</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94815,46.75784,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-116.9485450001357</longitude>
+						<latitude>46.75754364295905</latitude>
+						<altitude>0</altitude>
+						<heading>-1.918128917297018e-010</heading>
+						<tilt>44.99974068995797</tilt>
+						<range>1000.573581841465</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag17</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94896,46.75786,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2014</name>
+				<LookAt>
+					<gx:TimeStamp><when>2014-06-23</when>
+</gx:TimeStamp>
+					<longitude>-116.9485550000303</longitude>
+					<latitude>46.75766541085284</latitude>
+					<altitude>0</altitude>
+					<heading>-1.727995358439129e-010</heading>
+					<tilt>38.99908975090276</tilt>
+					<range>236.5702518211143</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag18</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94868,46.75775999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94832,46.75758999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag11</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94914,46.75775,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag17</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94839,46.75799,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>B1</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag33</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94785,46.7578,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>B2</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94764,46.75809,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>B3</name>
+					<LookAt>
+						<longitude>-116.9485450005496</longitude>
+						<latitude>46.75759413097714</latitude>
+						<altitude>0</altitude>
+						<heading>-4.833966032622326e-010</heading>
+						<tilt>39.64907659448462</tilt>
+						<range>185.7062667940585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag17</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94743,46.75781000000001,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2015</name>
+				<LookAt>
+					<gx:TimeStamp><when>2015-03-27</when>
+</gx:TimeStamp>
+					<longitude>-116.9485550000193</longitude>
+					<latitude>46.75766541101928</latitude>
+					<altitude>0</altitude>
+					<heading>-1.554782350486625e-010</heading>
+					<tilt>38.99817946101796</tilt>
+					<range>236.5702773442562</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<Placemark>
+					<name>1</name>
+					<LookAt>
+						<longitude>-116.9485450005005</longitude>
+						<latitude>46.75759413094875</latitude>
+						<altitude>0</altitude>
+						<heading>-4.069551520479384e-010</heading>
+						<tilt>39.64820003842892</tilt>
+						<range>185.7062640199803</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag28</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94859,46.75769,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2</name>
+					<LookAt>
+						<longitude>-116.9485450005005</longitude>
+						<latitude>46.75759413094875</latitude>
+						<altitude>0</altitude>
+						<heading>-4.069551520479384e-010</heading>
+						<tilt>39.64820003842892</tilt>
+						<range>185.7062640199803</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94879,46.75739999999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3</name>
+					<LookAt>
+						<longitude>-116.9485450005005</longitude>
+						<latitude>46.75759413094875</latitude>
+						<altitude>0</altitude>
+						<heading>-4.069551520479384e-010</heading>
+						<tilt>39.64820003842892</tilt>
+						<range>185.7062640199803</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94925,46.75732,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4</name>
+					<LookAt>
+						<longitude>-116.9485450005005</longitude>
+						<latitude>46.75759413094875</latitude>
+						<altitude>0</altitude>
+						<heading>-4.069551520479384e-010</heading>
+						<tilt>39.64820003842892</tilt>
+						<range>185.7062640199803</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94855,46.75714,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
