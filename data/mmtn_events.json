@@ -1,0 +1,59 @@
+{
+  'dateTimeFormat': 'Gregorian',
+  'events': [
+    {
+       'start':"Jan 2 2015 13:34:00 GMT-0800",
+       'end':"Jan 2 2015 13:37:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Data collection",
+       'description':""
+     }, {
+       'start':"Jan 21 2015 14:58:00 GMT-0800",
+       'end':"Jan 21 2015 15:03:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Data collection",
+       'description':"Field is a swamp."
+     }, {
+       'start':"Feb 27 2015 14:11:00 GMT-0800",
+       'end':"Feb 27 2015 14:15:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Data collection",
+       'description':""
+     }, {
+       'start':"Mar 27 2015 12:51:00 GMT-0800",
+       'end':"Mar 27 2015 13:35:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Data collection",
+       'description':""
+     }, {
+       'start':"Mar 27 2015 12:51:00 GMT-0800",
+       'end':"Mar 27 2015 13:32:00 GMT-0800",
+       'durationEvent':true,
+       'title':"Layout biomass plots",
+       'description':""
+     }, {
+       'start':"Mar 27 2015 14:58:00 GMT-0800",
+       'end':"Mar 27 2015 15:40:00 GMT-0800",
+       'durationEvent':true,
+       'title':"Biomass sampling",
+       'description':"Event #1"
+     }, {
+       'start':"Mar 27 2015 15:00:00 GMT-0800",
+       'end':"Mar 27 2015 15:10:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Replace bubble level",
+       'description':"on sonic anemometer"
+     }, {
+       'start':"Apr 13 2015 14:28:00 GMT-0800",
+       'end':"Apr 13 2015 14:56:00 GMT-0800",
+       'durationEvent':true,
+       'title':"Biomass sampling",
+       'description':"Event #2"
+     }, {
+       'start':"Apr 20 2015 14:52:00 GMT-0800",
+       'end':"Apr 20 2015 15:02:00 GMT-0800",
+       'durationEvent':false,
+       'title':"Data collection",
+       'description':"Also update logger network settings."
+     } ]
+}

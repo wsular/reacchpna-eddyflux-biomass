@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ <html>
+   <head>
+     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+     <!-- script src="http://static.simile.mit.edu/timeline/api-2.3.0/timeline-api.js?bundle=true" type="text/javascript"></script -->
+     <script src="http://api.simile-widgets.org/timeplot/1.1/timeplot-api.js" type="text/javascript"></script>
+     <script type="text/javascript">
+         var tl;
+         function onLoad() {
+           var eventSource = new Timeline.DefaultEventSource();
+           var eventsMMTN = new Timeline.DefaultEventSource();
+           var eventsAll = new Timeline.DefaultEventSource();
+           var bandInfos = [
+             Timeline.createBandInfo({
+                 eventSource:    eventsAll,
+                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 timeZone:       -8,
+                 width:          "40%", 
+                 intervalUnit:   Timeline.DateTime.DAY,
+                 intervalPixels: 100
+             }),
+             Timeline.createBandInfo({
+                 eventSource:    eventsMMTN,
+                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 timeZone:       -8,
+                 width:          "10%", 
+                 intervalUnit:   Timeline.DateTime.MONTH, 
+                 intervalPixels: 100,
+                 overview:       true
+             }),
+             Timeline.createBandInfo({
+                 eventSource:    eventSource,
+                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 timeZone:       -8,
+                 width:          "10%", 
+                 intervalUnit:   Timeline.DateTime.YEAR,
+                 intervalPixels: 200,
+                 overview:       true
+             }),
+             Timeline.createBandInfo({
+                 eventSource:    eventsAll,
+                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 timeZone:       -8,
+                 width:          "10%", 
+                 intervalUnit:   Timeline.DateTime.WEEK,
+                 intervalPixels: 200,
+                 overview:       true
+             })
+           ];
+           bandInfos[1].syncWith = 0;
+           bandInfos[2].syncWith = 0;
+           bandInfos[3].syncWith = 0;
+           bandInfos[1].highlight = true;
+           bandInfos[2].highlight = true;
+           bandInfos[3].highlight = true;
+           tl = Timeline.create(document.getElementById("my-timeline"), bandInfos);
+           Timeline.loadJSON("mmtn_events_copy.json", function(json, url) {
+            eventsMMTN.loadJSON(json, url);
+            eventsAll.loadJSON(json, url);
+           });
+           Timeline.loadJSON("mmtn_events.json", function(json, url) {
+            eventSource.loadJSON(json, url);
+            eventsAll.loadJSON(json, url);
+           });
+         }
+
+         var resizeTimerID = null;
+         function onResize() {
+             if (resizeTimerID == null) {
+                 resizeTimerID = window.setTimeout(function() {
+                     resizeTimerID = null;
+                     tl.layout();
+                 }, 500);
+             }
+         }
+    </script>
+   </head>
+   <body onload="onLoad();" onresize="onResize();">
+
+    <div id="my-timeline" style="height: 400px; border: 1px solid #aaa"></div>
+    <noscript>
+    This page uses Javascript to show you a Timeline. Please enable Javascript in your browser to see the full page. Thank you.
+    </noscript>
+
+   </body>
+ </html>
