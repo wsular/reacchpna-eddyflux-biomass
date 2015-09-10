@@ -1,35 +1,41 @@
 {
-  'dateTimeFormat': 'Gregorian',
+  'dateTimeFormat': 'iso8601',
   'events': [
     {
-       'start':"Apr 28 2015 9:53:00 GMT-0800",
-       'end':"Apr 28 2015 10:30:00 GMT-0800",
+       'start':"2015-04-28 09:53:00-0800",
+       'end':"2015-04-28 10:30:00-0800",
        'durationEvent':true,
        'title':"Biomass sampling",
        'description':"Event #3"
      }, {
-       'start':"Apr 28 2015 10:34:00 GMT-0800",
-       'end':"Apr 28 2015 10:46:00 GMT-0800",
-       'durationEvent':false,
+       'start':"2015-04-28 10:34:00-0800",
+       'end':"2015-04-28 10:46:00-0800",
+       'durationEvent':true,
        'title':"Install sonic/IRGA rain wicks",
        'description':""
      }, {
-       'start':"Apr 28 2015 9:53:00 GMT-0800",
-       'end':"Apr 28 2015 11:05:00 GMT-0800",
+       'start':"2015-04-28 09:53:00-0800",
+       'end':"2015-04-28 11:05:00-0800",
        'durationEvent':true,
        'title':"Site visit",
        'description':""
      }, {
-       'start':"May 5 2015 12:12:00 GMT-0800",
-       'end':"May 5 2015 13:45:00 GMT-0800",
+       'start':"2015-05-05 12:12:00-0800",
+       'end':"2015-05-05 12:12:00-0800",
        'durationEvent':false,
        'title':"Data collection",
        'description':""
      }, {
-       'start':"May 5 2015 12:20:00 GMT-0800",
-       'end':"May 5 2015 12:34:00 GMT-0800",
+       'start':"2015-05-05 12:20:00-0800",
+       'end':"2015-05-05 12:34:00-0800",
        'durationEvent':true,
        'title':"Replace PAR bracket",
+       'description':""
+     }, {
+       'start':"2015-05-05 12:12:00-0800",
+       'end':"2015-05-05 13:45:00-0800",
+       'durationEvent':true,
+       'title':"Site visit",
        'description':""
      } ]
 }

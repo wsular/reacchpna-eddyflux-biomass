@@ -1,0 +1,8 @@
+Observations using SIMILE widgets:
+
+* timestamps are superduper finicky
+    * ISO8601 is not preferred, but accepted
+    * OK to replace the 'T' with a space but timezone must follow time 
+        with NO space (2015-08-13 09:00:00-0800)
+
+
