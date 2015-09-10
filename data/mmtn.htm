@@ -13,15 +13,15 @@
            var bandInfos = [
              Timeline.createBandInfo({
                  eventSource:    eventsAll,
-                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 date:           "Jan 1 2015 00:00:00 GMT-0800",
                  timeZone:       -8,
                  width:          "40%", 
                  intervalUnit:   Timeline.DateTime.DAY,
-                 intervalPixels: 100
+                 intervalPixels: 250
              }),
              Timeline.createBandInfo({
                  eventSource:    eventsMMTN,
-                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 date:           "Jan 1 2015 00:00:00 GMT-0800",
                  timeZone:       -8,
                  width:          "10%", 
                  intervalUnit:   Timeline.DateTime.MONTH, 
@@ -30,7 +30,7 @@
              }),
              Timeline.createBandInfo({
                  eventSource:    eventSource,
-                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 date:           "Jan 1 2015 00:00:00 GMT-0800",
                  timeZone:       -8,
                  width:          "10%", 
                  intervalUnit:   Timeline.DateTime.YEAR,
@@ -39,7 +39,7 @@
              }),
              Timeline.createBandInfo({
                  eventSource:    eventsAll,
-                 date:           "Fri Mar 27 2015 00:00:00 GMT-0800",
+                 date:           "Jan 1 2015 00:00:00 GMT-0800",
                  timeZone:       -8,
                  width:          "10%", 
                  intervalUnit:   Timeline.DateTime.WEEK,
@@ -57,10 +57,12 @@
            Timeline.loadJSON("mmtn_events_copy.json", function(json, url) {
             eventsMMTN.loadJSON(json, url);
             eventsAll.loadJSON(json, url);
+            eventSource.loadJSON(json, url);
            });
            Timeline.loadJSON("mmtn_events.json", function(json, url) {
             eventSource.loadJSON(json, url);
             eventsAll.loadJSON(json, url);
+            eventsMMTN.loadJSON(json, url);
            });
          }
 
@@ -73,6 +75,10 @@
                  }, 500);
              }
          }
+
+         function centerTimeline(dateString) {
+          tl.getBand(0).setCenterVisibleDate(new Date(dateString));
+         }
     </script>
    </head>
    <body onload="onLoad();" onresize="onResize();">
@@ -81,6 +87,14 @@
     <noscript>
     This page uses Javascript to show you a Timeline. Please enable Javascript in your browser to see the full page. Thank you.
     </noscript>
-
+    <table style="align:center;">
+      <tr>
+        <th colspan=2>Interesting events</td>
+      </tr>
+      <tr>
+        <td><a href="javascript:centerTimeline('2015-03-27T15:00')">Replace bubble level</a></td>
+        <td><a href="javascript:centerTimeline('2015-05-05T12:20')">Replace PAR bracket</td>
+      </tr>
+    </table>
    </body>
  </html>
