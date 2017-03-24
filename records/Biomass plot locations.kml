@@ -2,7 +2,26 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Biomass plot locations.kml</name>
-	<open>1</open>
+	<StyleMap id="msn_flag0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag9</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_flag18">
 		<Pair>
 			<key>normal</key>
@@ -13,6 +32,95 @@
 			<styleUrl>#sh_flag34</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_flag14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag31">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag18">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag161</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag181</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag23">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag210">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_flag00">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -22,7 +130,38 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag11">
+	<StyleMap id="msn_flag200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag4">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -31,9 +170,356 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_flag01">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag15">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag01">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag20">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag23">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag82">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag21">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag0">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag22">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag36</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag60">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag14">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed11">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag5">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag111">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag13">
+		<IconStyle>
+			<color>ffffaaff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag1">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="track_n">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_flag00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag180</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag13</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_flag2">
 		<IconStyle>
 			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag190">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag51">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag1">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag3">
+		<IconStyle>
+			<color>ffff0000</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -51,7 +537,234 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag160">
+	<StyleMap id="msn_flag60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag19">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag4">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag2">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag8">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag16">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag190</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag28">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag29">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag3">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag181">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag25">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_arrow00">
+		<IconStyle>
+			<scale>1.16667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="track_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mfailed1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag33">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag35">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag40">
 		<IconStyle>
 			<color>ff00ffff</color>
 			<scale>1.2</scale>
@@ -71,17 +784,48 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag34">
+	<StyleMap id="msn_flag160">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag180</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag201">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag240</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag6">
 		<IconStyle>
-			<color>ff0000aa</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="failed1">
+	<Style id="sn_arrow">
 		<IconStyle>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
@@ -89,16 +833,42 @@
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag26">
+	<Style id="sh_flag110">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag130">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag31">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag23</styleUrl>
+			<styleUrl>#sn_flag4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag15</styleUrl>
+			<styleUrl>#sh_flag33</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed10">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_flag100">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -109,9 +879,19 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag1">
+	<StyleMap id="msn_flag4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag60">
 		<IconStyle>
-			<color>ff00ffff</color>
+			<color>ff00aaff</color>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -119,17 +899,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag80</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag35">
+	<Style id="sh_flag11">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -138,39 +908,9 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag15">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag140</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag60</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_flag5">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag29">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag18">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
@@ -186,10 +926,181 @@
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag000">
+	<Style id="sn_flag50">
 		<IconStyle>
-			<color>ff00aaff</color>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag24">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag32">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag27">
+		<IconStyle>
+			<color>ffff0000</color>
 			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag70">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag20">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag7">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="mfailed10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag34">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag6">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag30">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag360</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag36">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag12">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag17">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
@@ -206,139 +1117,9 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag240">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag17</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag60">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag51</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag220</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag21</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag28">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag31</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag31</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag35">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag29">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag29</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag50">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag16">
+	<Style id="sh_flag80">
 		<IconStyle>
 			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag200">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag12</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag25">
-		<IconStyle>
-			<color>ff00ffff</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -346,18 +1127,48 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag31">
+	<Style id="sh_flag280">
 		<IconStyle>
-			<scale>1.2</scale>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag111">
+	<StyleMap id="msn_flag100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag31">
 		<IconStyle>
-			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag150">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag000">
+		<IconStyle>
+			<color>ff00aaff</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -375,9 +1186,8 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag0">
+	<Style id="sn_flag230">
 		<IconStyle>
-			<color>ff0000aa</color>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -385,10 +1195,28 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag150">
+	<Style id="sn_flag22">
 		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag28">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag12">
+		<IconStyle>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
@@ -404,29 +1232,9 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag180">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag28</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag26">
+	<Style id="sn_flag11">
 		<IconStyle>
-			<color>ffffaaff</color>
+			<color>ff0000aa</color>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -434,7 +1242,243 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag31">
+	<Style id="sn_flag9">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag24">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag17">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag28">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag61">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag300">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag10">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag19">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag37">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag80">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag160">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag61">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag14">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag02">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag25">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag40">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag16">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag00">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -453,68 +1497,37 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag21">
+	<StyleMap id="track">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag22</styleUrl>
+			<styleUrl>#track_n</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag35</styleUrl>
+			<styleUrl>#track_h</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_flag210">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag24</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag32">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag29</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag33">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag60">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag210</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag210</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag23">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag25</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag111</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag4">
+	<Style id="failed1">
 		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag240">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag32">
+		<IconStyle>
+			<color>ffff0000</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -522,17 +1535,47 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag14">
+	<Style id="sn_flag21">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag360">
 		<IconStyle>
 			<color>ff0000aa</color>
-			<scale>1.4</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag3">
+	<Style id="sn_flag90">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag9">
 		<IconStyle>
 			<color>ff00ffff</color>
 			<scale>1.4</scale>
@@ -542,29 +1585,9 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag19">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag33</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag330">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag28</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag25</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag34">
+	<Style id="sn_flag180">
 		<IconStyle>
-			<color>ffff0000</color>
+			<color>ffffaaff</color>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -572,54 +1595,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag17">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag37">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag25">
+	<StyleMap id="msn_flag34">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag18</styleUrl>
+			<styleUrl>#sn_flag5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag81</styleUrl>
+			<styleUrl>#sh_flag01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag13">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag00">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -630,82 +1615,27 @@
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag19">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag14">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="failed11">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag4">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag15">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag210">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="failed">
+	<StyleMap id="msn_flag170">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed10</styleUrl>
+			<styleUrl>#sn_flag15</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed0</styleUrl>
+			<styleUrl>#sh_flag150</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag01">
+	<StyleMap id="msn_flag9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag52">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>1.2</scale>
@@ -715,27 +1645,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag160">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag24</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag180</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag90">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag230</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag6">
+	<Style id="sn_flag140">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>1.2</scale>
@@ -745,38 +1655,8 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag24">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag37</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag32</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="mfailed10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_arrow0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag9">
+	<Style id="sh_flag26">
 		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag28">
-		<IconStyle>
-			<color>ffff0000</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -784,77 +1664,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag16">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag40">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag230">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag32</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag70</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag17">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag19</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag11">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_arrow">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_arrow</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_arrow00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag12">
+	<Style id="sh_flag33">
 		<IconStyle>
 			<color>ff00ffff</color>
 			<scale>1.4</scale>
@@ -862,162 +1672,6 @@
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag190">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag23">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag21</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag300</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag110">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag16</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag16">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag10">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag27">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag22">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag90</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag32">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag110">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag22">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag36">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag2">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag1">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_arrow00">
-		<IconStyle>
-			<scale>1.16667</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
 	<Style id="sh_arrow">
@@ -1039,9 +1693,8 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag21">
+	<Style id="sh_flag35">
 		<IconStyle>
-			<color>ff0000aa</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -1049,262 +1702,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag51">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag28">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag40">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag01">
+	<StyleMap id="failed">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag161</styleUrl>
+			<styleUrl>#failed10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag18</styleUrl>
+			<styleUrl>#failed0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_flag9">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag36">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag33">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag210">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag25">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag22">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag26</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag20">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="mfailed1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_arrow</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag8">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag19">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag23">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag18">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag170">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag150</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag180</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag30">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag21">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag140">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag3">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag70">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_flag30">
 		<IconStyle>
 			<color>ff0000aa</color>
@@ -1315,27 +1722,26 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag70">
+	<StyleMap id="msn_flag260">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag13</styleUrl>
+			<styleUrl>#sn_flag23</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag50</styleUrl>
+			<styleUrl>#sh_flag15</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_flag12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag17</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag19</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag8">
+	<Style id="sn_flag210">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag34">
 		<IconStyle>
 			<color>ff0000aa</color>
 			<scale>1.4</scale>
@@ -1345,259 +1751,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_flag26">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag1">
+	<StyleMap id="msn_arrow">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag34</styleUrl>
+			<styleUrl>#sn_arrow</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag280</styleUrl>
+			<styleUrl>#sh_arrow00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed0">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag33">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_arrow">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag90">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag24">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag20">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag36</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag36</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag35</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag27</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag9</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag201">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag50</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag140">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag190</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag24">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag300">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed10">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag13">
-		<IconStyle>
-			<color>ffffaaff</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag27">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag31">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag33</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag60">
-		<IconStyle>
-			<color>ff00aaff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag6">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag32">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag280">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag180">
+	<Style id="sn_flag26">
 		<IconStyle>
 			<color>ffffaaff</color>
 			<scale>1.2</scale>
@@ -1607,36 +1771,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_flag190">
+	<StyleMap id="msn_flag21">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag160</styleUrl>
+			<styleUrl>#sn_flag22</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag23</styleUrl>
+			<styleUrl>#sh_flag35</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_flag5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag80">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_flag61">
 		<Pair>
 			<key>normal</key>
@@ -1647,76 +1791,19 @@
 			<styleUrl>#sh_flag41</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag7">
+	<Style id="sh_flag240">
 		<IconStyle>
 			<color>ff00ffff</color>
-			<scale>1.2</scale>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag12">
+	<Style id="sn_flag161">
 		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag230">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_flag14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag220">
-		<IconStyle>
-			<color>ff0000aa</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag29">
-		<IconStyle>
-			<color>ffff0000</color>
+			<color>ff00ffff</color>
 			<scale>1.2</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -1734,29 +1821,19 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_flag17">
+	<StyleMap id="msn_flag330">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag36">
 		<IconStyle>
-			<color>ffff0000</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_flag161">
-		<IconStyle>
-			<color>ff00ffff</color>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_flag5">
-		<IconStyle>
-			<color>ffff0000</color>
+			<color>ff0000aa</color>
 			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
@@ -1764,13 +1841,102 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_flag110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag18">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag52</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag29">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_flag220">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag280</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>Biomass plot locations</name>
 		<open>1</open>
 		<description>Plots are 30 feet in diameter.</description>
 		<Folder>
 			<name>CFNT</name>
-			<open>1</open>
 			<description>Cook Agronomy Farm, no-till site</description>
 			<Placemark>
 				<name>Tower</name>
@@ -1828,7 +1994,7 @@
 						<range>100.7103791751554</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag8</styleUrl>
+					<styleUrl>#msn_flag80</styleUrl>
 					<Point>
 						<coordinates>-117.07767,46.78357,0</coordinates>
 					</Point>
@@ -2186,7 +2352,6 @@
 		</Folder>
 		<Folder>
 			<name>CFCT</name>
-			<open>1</open>
 			<description>Cook Agronomy Farm, conventional till site</description>
 			<Placemark>
 				<name>Tower</name>
@@ -2413,7 +2578,7 @@
 						<range>381.1626671790575</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag26</styleUrl>
+					<styleUrl>#msn_flag260</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.08138,46.7771,0</coordinates>
@@ -2532,7 +2697,7 @@
 						<range>329.2798384763538</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag</styleUrl>
+					<styleUrl>#msn_flag26</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.08076,46.77747,0</coordinates>
@@ -2549,7 +2714,7 @@
 						<range>329.2798384763538</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag3</styleUrl>
+					<styleUrl>#msn_flag34</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.08083,46.77717,0</coordinates>
@@ -2566,7 +2731,7 @@
 						<range>329.2798384763538</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag4</styleUrl>
+					<styleUrl>#msn_flag41</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0812,46.777,0</coordinates>
@@ -2593,7 +2758,6 @@
 		</Folder>
 		<Folder>
 			<name>LIND</name>
-			<open>1</open>
 			<description>WSU Dryland Research Station
 Lind, WA</description>
 			<Placemark>
@@ -2779,7 +2943,6 @@ Lind, WA</description>
 		</Folder>
 		<Folder>
 			<name>MMTN</name>
-			<open>1</open>
 			<description>Moscow Mountain high rainfall site</description>
 			<Placemark>
 				<name>Tower</name>
@@ -2838,7 +3001,7 @@ Lind, WA</description>
 						<range>1000.182664573417</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_flag1</styleUrl>
+					<styleUrl>#msn_flag111</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.94854,46.75738,0</coordinates>
@@ -3093,6 +3256,450 @@ Lind, WA</description>
 						<coordinates>-116.94855,46.75714,0</coordinates>
 					</Point>
 				</Placemark>
+			</Folder>
+			<Folder>
+				<name>2016</name>
+				<open>1</open>
+				<Placemark>
+					<name>1 (est.)</name>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-05-02T19:37:34Z</begin>
+							<end>2016-05-02T20:36:05Z</end>
+						</gx:TimeSpan>
+						<longitude>-116.948445887195</longitude>
+						<latitude>46.75730103723993</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002943771301713087</heading>
+						<tilt>0</tilt>
+						<range>254.7823762432569</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94869,46.75762,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>2 (est.)</name>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-05-02T19:37:34Z</begin>
+							<end>2016-05-02T20:36:05Z</end>
+						</gx:TimeSpan>
+						<longitude>-116.948445887195</longitude>
+						<latitude>46.75730103723993</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002943771301713087</heading>
+						<tilt>0</tilt>
+						<range>254.7823762432569</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94876,46.75734000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>3 (est.)</name>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-05-02T19:37:34Z</begin>
+							<end>2016-05-02T20:36:05Z</end>
+						</gx:TimeSpan>
+						<longitude>-116.9488121125149</longitude>
+						<latitude>46.75731656419557</latitude>
+						<altitude>0</altitude>
+						<heading>2.759802668372668e-005</heading>
+						<tilt>0</tilt>
+						<range>161.5133981282395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94916,46.75733,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4 (est.)</name>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-05-02T19:37:34Z</begin>
+							<end>2016-05-02T20:36:05Z</end>
+						</gx:TimeSpan>
+						<longitude>-116.948445887195</longitude>
+						<latitude>46.75730103723993</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002943771301713087</heading>
+						<tilt>0</tilt>
+						<range>254.7823762432569</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_flag</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94851,46.75715,0</coordinates>
+					</Point>
+				</Placemark>
+				<Folder>
+					<name>Tracks</name>
+					<visibility>0</visibility>
+					<description>Exceprt of GPS active log on day of plot installation</description>
+					<Placemark>
+						<name>ACTIVE LOG-3001</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948685 </td></tr>
+<tr><td>Latitude: 46.757682 </td></tr>
+<tr><td>Altitude: 2733.332 ft </td></tr>
+<tr><td>Speed: 31432.9 mph </td></tr>
+<tr><td>Heading: 74.5 </td></tr>
+<tr><td>Time: 2016-05-02T19:37:34Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948685</longitude>
+							<latitude>46.757682</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T19:37:34Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948685,46.757682,833.12</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3002</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948715 </td></tr>
+<tr><td>Latitude: 46.757591 </td></tr>
+<tr><td>Altitude: 2687.601 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 193.0 </td></tr>
+<tr><td>Time: 2016-05-02T20:02:17Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948715</longitude>
+							<latitude>46.757591</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:02:17Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948715,46.757591,819.18</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3003</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948684 </td></tr>
+<tr><td>Latitude: 46.757635 </td></tr>
+<tr><td>Altitude: 2686.023 ft </td></tr>
+<tr><td>Speed: 0.7 mph </td></tr>
+<tr><td>Heading: 25.8 </td></tr>
+<tr><td>Time: 2016-05-02T20:02:35Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948684</longitude>
+							<latitude>46.757635</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:02:35Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948684,46.757635,818.7000000000001</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3004</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948763 </td></tr>
+<tr><td>Latitude: 46.757490 </td></tr>
+<tr><td>Altitude: 2690.754 ft </td></tr>
+<tr><td>Speed: 2.4 mph </td></tr>
+<tr><td>Heading: 200.4 </td></tr>
+<tr><td>Time: 2016-05-02T20:02:51Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948763</longitude>
+							<latitude>46.75749</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:02:51Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948763,46.75749,820.1399999999999</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3005</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948789 </td></tr>
+<tr><td>Latitude: 46.757372 </td></tr>
+<tr><td>Altitude: 2690.754 ft </td></tr>
+<tr><td>Speed: 0.2 mph </td></tr>
+<tr><td>Heading: 188.3 </td></tr>
+<tr><td>Time: 2016-05-02T20:05:38Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948789</longitude>
+							<latitude>46.757372</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:05:38Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948789,46.757372,820.1399999999999</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3006</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948703 </td></tr>
+<tr><td>Latitude: 46.757308 </td></tr>
+<tr><td>Altitude: 2690.754 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 137.2 </td></tr>
+<tr><td>Time: 2016-05-02T20:13:15Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948703</longitude>
+							<latitude>46.757308</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:13:15Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948703,46.757308,820.1399999999999</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3007</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948570 </td></tr>
+<tr><td>Latitude: 46.757187 </td></tr>
+<tr><td>Altitude: 2700.216 ft </td></tr>
+<tr><td>Speed: 2.0 mph </td></tr>
+<tr><td>Heading: 143.2 </td></tr>
+<tr><td>Time: 2016-05-02T20:13:34Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.94857</longitude>
+							<latitude>46.757187</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:13:34Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.94857,46.757187,823.03</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3008</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948488 </td></tr>
+<tr><td>Latitude: 46.757119 </td></tr>
+<tr><td>Altitude: 2700.216 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 140.2 </td></tr>
+<tr><td>Time: 2016-05-02T20:22:44Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948488</longitude>
+							<latitude>46.757119</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:22:44Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948488,46.757119,823.03</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3009</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948631 </td></tr>
+<tr><td>Latitude: 46.757214 </td></tr>
+<tr><td>Altitude: 2693.908 ft </td></tr>
+<tr><td>Speed: 0.5 mph </td></tr>
+<tr><td>Heading: 313.9 </td></tr>
+<tr><td>Time: 2016-05-02T20:23:49Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948631</longitude>
+							<latitude>46.757214</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:23:49Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948631,46.757214,821.1</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3010</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948760 </td></tr>
+<tr><td>Latitude: 46.757341 </td></tr>
+<tr><td>Altitude: 2689.178 ft </td></tr>
+<tr><td>Speed: 2.8 mph </td></tr>
+<tr><td>Heading: 325.1 </td></tr>
+<tr><td>Time: 2016-05-02T20:24:03Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.94876</longitude>
+							<latitude>46.757341</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:24:03Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.94876,46.757341,819.66</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3011</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.948917 </td></tr>
+<tr><td>Latitude: 46.757370 </td></tr>
+<tr><td>Altitude: 2682.869 ft </td></tr>
+<tr><td>Speed: 0.3 mph </td></tr>
+<tr><td>Heading: 285.4 </td></tr>
+<tr><td>Time: 2016-05-02T20:25:45Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.948917</longitude>
+							<latitude>46.75737</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:25:45Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.948917,46.75737,817.74</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3012</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.949123 </td></tr>
+<tr><td>Latitude: 46.757348 </td></tr>
+<tr><td>Altitude: 2687.601 ft </td></tr>
+<tr><td>Speed: 1.9 mph </td></tr>
+<tr><td>Heading: 260.8 </td></tr>
+<tr><td>Time: 2016-05-02T20:26:04Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.949123</longitude>
+							<latitude>46.757348</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:26:04Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.949123,46.75734799999999,819.18</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ACTIVE LOG-3013</name>
+						<visibility>0</visibility>
+						<snippet></snippet>
+						<description><![CDATA[<table>
+<tr><td>Longitude: -116.949212 </td></tr>
+<tr><td>Latitude: 46.757313 </td></tr>
+<tr><td>Altitude: 2693.908 ft </td></tr>
+<tr><td>Speed: 0.0 mph </td></tr>
+<tr><td>Heading: 240.5 </td></tr>
+<tr><td>Time: 2016-05-02T20:36:05Z </td></tr>
+</table>]]></description>
+						<LookAt>
+							<longitude>-116.949212</longitude>
+							<latitude>46.757313</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>500</range>
+						</LookAt>
+						<TimeStamp><when>2016-05-02T20:36:05Z</when>
+</TimeStamp>
+						<styleUrl>#track</styleUrl>
+						<Point>
+							<coordinates>-116.949212,46.75731300000001,821.1</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 			</Folder>
 		</Folder>
 	</Folder>
