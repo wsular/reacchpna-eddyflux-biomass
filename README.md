@@ -4,9 +4,12 @@ Objective 2 - Biomass Sampling
 Regional Approaches to Climate Change (2011-2016)
 -------------------------------------------------
 
+Biomass sampling data and records to supplement greenhouse gas flux tower
+measurements.
+
 * Project Home: <http://reacchpna.org>
 * Flux tower repos
-    * Biomass Data and SOPs (here)
+    * Biomass Sampling Data and Records (here)
     * [Tower Logger Source Code](https://github.com/wsular/reacchpna-eddyflux-tower)
     * [Tower Data Processing](https://github.com/wsular/reacchpna-eddyflux-processing)
     * [Field Timelapse Image Management](https://github.com/wsular/reacchpna-eddyflux-timelapse)
